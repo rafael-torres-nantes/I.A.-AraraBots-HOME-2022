@@ -1,0 +1,1 @@
+x = input("Enter the name of the object: ")
