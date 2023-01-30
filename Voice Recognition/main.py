@@ -1,5 +1,5 @@
-from audio_reproduce import  falar_frase
-from speech_rec import ouvir_microfone
+from voice_recognition import ouvir_microfone
+from voice_emulation import  falar_frase
 
 def main():
     frase = ouvir_microfone()

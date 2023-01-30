@@ -8,4 +8,9 @@ def ouvir_microfone(): # Funcao para ouvir e reconhecer a fala
 
     frase = module_rec.recognize_google(audio, language='pt')
 
+    print(frase)
+
+    #if " " in frase.lower():
+        #print(" ")
+
     return frase
